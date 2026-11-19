@@ -148,7 +148,7 @@ def load_country_breakdown(category: str) -> pd.DataFrame:
     """Fetch record counts, avg views, and avg trending duration by country."""
     conn, _ = get_database_connection()
     where_sql = "WHERE category_title = ?" if category != "All" else ""
-    params = [category] if category != "All" else []
+    params = [category, category] if category != "All" else []
 
     query = f"""
     WITH video_durations AS (
