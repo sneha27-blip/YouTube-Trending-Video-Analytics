@@ -1,0 +1,64 @@
+# ==============================================================================
+# YouTube Trending Video Analytics - Git Ignore Rules
+# ==============================================================================
+
+# --- Python Cache & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Large Datasets & Compressed Archives ---
+# Ignore all raw, extracted, and cleaned dataset files
+Data/
+*.csv
+*.zip
+
+# --- SQLite Databases & Journal Files ---
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+Sql/*.db
+Sql/*.db-wal
+Sql/*.db-shm
+
+# --- Jupyter Checkpoints & Local Runtime State ---
+.ipynb_checkpoints/
+.jupyter/
+.jupyter_data/
+.jupyter_runtime/
+.ipython/
+
+# --- Operating System & Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

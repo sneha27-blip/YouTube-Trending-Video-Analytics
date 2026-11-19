@@ -1,0 +1,7 @@
+# YouTube Trending Video Analytics - Project Dependencies
+pandas>=2.2.0
+numpy>=2.0.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+streamlit>=1.35.0
+plotly>=5.22.0
